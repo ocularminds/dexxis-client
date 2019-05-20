@@ -1,0 +1,17 @@
+D:\project-lab\project-csharp\dexxis-client\dexiss-client\bin\Debug\netstandard2.0\dexiss.client.deps.json
+D:\project-lab\project-csharp\dexxis-client\dexiss-client\bin\Debug\netstandard2.0\dexiss.client.dll
+D:\project-lab\project-csharp\dexxis-client\dexiss-client\bin\Debug\netstandard2.0\dexiss.client.pdb
+D:\project-lab\project-csharp\dexxis-client\dexiss-client\obj\Debug\netstandard2.0\dexiss.client.csproj.CoreCompileInputs.cache
+D:\project-lab\project-csharp\dexxis-client\dexiss-client\obj\Debug\netstandard2.0\dexiss.client.AssemblyInfoInputs.cache
+D:\project-lab\project-csharp\dexxis-client\dexiss-client\obj\Debug\netstandard2.0\dexiss.client.AssemblyInfo.cs
+D:\project-lab\project-csharp\dexxis-client\dexiss-client\obj\Debug\netstandard2.0\dexiss.client.dll
+D:\project-lab\project-csharp\dexxis-client\dexiss-client\obj\Debug\netstandard2.0\dexiss.client.pdb
+D:\project-lab\project-csharp\dexxis-client\obj\Debug\netstandard2.0\dexiss.client.dll
+D:\project-lab\project-csharp\dexxis-client\obj\Debug\netstandard2.0\dexiss.client.pdb
+D:\project-lab\project-csharp\dexxis-client\bin\Debug\netstandard2.0\dexiss.client.deps.json
+D:\project-lab\project-csharp\dexxis-client\bin\Debug\netstandard2.0\dexiss.client.dll
+D:\project-lab\project-csharp\dexxis-client\bin\Debug\netstandard2.0\dexiss.client.pdb
+D:\project-lab\project-csharp\dexxis-client\obj\Debug\netstandard2.0\dexiss.client.csprojAssemblyReference.cache
+D:\project-lab\project-csharp\dexxis-client\obj\Debug\netstandard2.0\dexiss.client.csproj.CoreCompileInputs.cache
+D:\project-lab\project-csharp\dexxis-client\obj\Debug\netstandard2.0\dexiss.client.AssemblyInfoInputs.cache
+D:\project-lab\project-csharp\dexxis-client\obj\Debug\netstandard2.0\dexiss.client.AssemblyInfo.cs
