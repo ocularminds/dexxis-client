@@ -12,16 +12,16 @@ namespace dexxis.client
     {
 
         [Post("isServerAvailable")]
-        Task<Boolean> IsServerAvailableAsync([Body] Dictionary<String, object> request);
+        Task<Dictionary<string, string>> IsServerAvailableAsync([Body] Dictionary<String, object> request);
 
         [Post("createCardRequest")]
-        Task<Int32> CreateCardRequestAsync([Body] Dictionary<String, object> request);
+        Task<Dictionary<string, string>> CreateCardRequestAsync([Body] Dictionary<String, object> request);
 
         [Post("CancelCardRequest")]
-        Task<List<Int32>> CancelCardRequestAsync([Body] Dictionary<String, object> request);
+        Task<List<Dictionary<string, string>>> CancelCardRequestAsync([Body] Dictionary<String, object> request);
 
         [Post("changeCardRequestSatellites")]
-        Task<List<Int32>> ChangeCardRequestSatellitesAsync([Body] Dictionary<String, object> request);
+        Task<List<Dictionary<string, string>>> ChangeCardRequestSatellitesAsync([Body] Dictionary<String, object> request);
 
         /**
          *
@@ -34,10 +34,10 @@ namespace dexxis.client
          * @throws Exception
          */
         [Post("getCardRequest")]
-        Task<List<String>> GetCardRequestAsync([Body] Dictionary<String, object> request);
+        Task<List<Dictionary<string, string>>> GetCardRequestAsync([Body] Dictionary<String, object> request);
 
         [Post("getCardRequestStatus")]
-        Task<List<String>> GetCardRequestStatusAsync([Body] Dictionary<String, object> request);
+        Task<List<Dictionary<string, string>>> GetCardRequestStatusAsync([Body] Dictionary<String, object> request);
 
         [Post("getPEDsFromBranchRequest")]
         Task<Dictionary<string, object>> GetPEDsFromBranchRequestAsync([Body] Dictionary<String, object> request);
