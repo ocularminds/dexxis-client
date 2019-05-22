@@ -11,7 +11,7 @@ namespace dexxis.client {
 
         public DexxisCardProductionService()
         {
-            dexxisCardProduction = RestClient.For<DexxisCardProduction>("http://localhost:4321/api/dexxis/i2control");
+            dexxisCardProduction = RestClient.For<DexxisCardProduction>("http://localhost:4321/api/dexxis/i2-production");
         }
 
         public List<int> ValidateCardProductions(Dictionary<string, object> request)
