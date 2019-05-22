@@ -15,31 +15,31 @@ namespace dexxis.client{
             dexxisCardIssuance = RestClient.For<DexxisCardIssuance>("http://localhost:4321/api/dexxis/issuance");
         }
 
-        public bool IsServerAvailable(Dictionary<string, object> request)
+        public Dictionary<string, string> IsServerAvailable(Dictionary<string, object> request)
         {
-            Boolean response = dexxisCardIssuance.IsServerAvailableAsync(request).Result;
+            Dictionary<string, string> response = dexxisCardIssuance.IsServerAvailableAsync(request).Result;
             return response;
         }
 
-        public int CreateCardRequest(Dictionary<string, object> request)
+        public Dictionary<string, string> CreateCardRequest(Dictionary<string, object> request)
         {
 
-            Int32 response = dexxisCardIssuance.CreateCardRequestAsync(request).Result;
+            Dictionary<string, string> response = dexxisCardIssuance.CreateCardRequestAsync(request).Result;
             return response;
         }
 
-        public List<int> CancelCardRequest(Dictionary<string, object> request)
+        public List<Dictionary<string, string>> CancelCardRequest(Dictionary<string, object> request)
         {
 
-            List<int> response = dexxisCardIssuance.CancelCardRequestAsync(request).Result;
+            List<Dictionary<string, string>> response = dexxisCardIssuance.CancelCardRequestAsync(request).Result;
             return response;
 
         }
 
-        public List<int> ChangeCardRequestSatellites(Dictionary<string, object> request)
+        public List<Dictionary<string, string>> ChangeCardRequestSatellites(Dictionary<string, object> request)
         {
 
-            List<int> response = dexxisCardIssuance.ChangeCardRequestSatellitesAsync(request).Result;
+            List<Dictionary<string, string>> response = dexxisCardIssuance.ChangeCardRequestSatellitesAsync(request).Result;
             return response;
         }
 
@@ -53,17 +53,17 @@ namespace dexxis.client{
          * @throws ParserConfigurationException
          * @throws Exception
          */
-        public List<String> GetCardRequest(Dictionary<string, object> request)
+        public List<Dictionary<string, string>> GetCardRequest(Dictionary<string, object> request)
         {
 
-            List<String> response = dexxisCardIssuance.GetCardRequestAsync(request).Result;
+            List<Dictionary<string, string>> response = dexxisCardIssuance.GetCardRequestAsync(request).Result;
             return response;
         }
 
-        public List<String> GetCardRequestStatus(Dictionary<string, object> request)
+        public List<Dictionary<string, string>> GetCardRequestStatus(Dictionary<string, object> request)
         {
 
-            List<String> response = dexxisCardIssuance.GetCardRequestStatusAsync(request).Result;
+            List<Dictionary<string, string>> response = dexxisCardIssuance.GetCardRequestStatusAsync(request).Result;
             return response;
         }
 
